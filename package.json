@@ -6,12 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mail": "email dev --dir app/emails"
   },
   "dependencies": {
+    "@react-email/components": "^0.0.22",
+    "next": "14.2.3",
+    "punycode": "^2.3.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-email": "^2.1.6"
   },
   "devDependencies": {
     "typescript": "^5",
